@@ -9,11 +9,11 @@ git config --local user.name "<NOME_USUARIO>"
 git config --local user.email "<EMAIL_USUARIO>"
 git config --local credential.helper store
 
-git pull origin master # se repositorio ja contiver algo
+git pull origin main # se repositorio ja contiver algo
 
 git add * 
 git commit -m "Commit inicial"
-git push origin master
+git push origin main
 ~~~
 
 
